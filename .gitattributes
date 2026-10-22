@@ -1,0 +1,9 @@
+# Exclude build artifacts
+# Language detection rules
+*.htm linguist-vendored
+*.svg text
+package-lock.json linguist-generated
+*.ts linguist-detectable
+
+*.json linguist-detectable=false 
+public/* linguist-vendored
